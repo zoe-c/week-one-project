@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bent Creek Ceramics</title>
+    <link href="/Users/zoe/Desktop/week-one-project/newsletter/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/Users/zoe/desktop/week-one-project/images/project-images/1496381040.ico">
+    <!-- <meta name="viewport" min-height="100vh" initial-scale="1"> -->
+  </head>
+  <body>
+    <header class="nav-wrap">
+       <nav>
+         <!-- <meta name="viewport" content="width= device-width, initial-scale=1, max-width=1050px"> -->
+         <img src="/Users/zoe/Desktop/week-one-project/images/project-images/bent-creek-logo.png">
+         <a href="/Users/zoe/Desktop/week-one-project/index.html">Home</a>
+         <a href="/Users/zoe/Desktop/week-one-project/about/index2.html">About</a>
+         <a href="/Users/zoe/Desktop/week-one-project/newsletter/index3.html" class="active">Newsletter</a>
+       </nav>
+    </header>
+
+    <div class="outer">
+       <section class="signup-module">
+          <h1>Sign Up for Our Weekly Newsletter</h1>
+          <h2>Stay up to date with events, activities, news and specials.</h2>
+          <div class="subscriber-info">
+             <div class="subscriber-name">
+               <label for="nameInput">Name</label>
+               <input type="text" id="nameInput">
+             </div>
+             <div class="subscriber-email">
+               <label for="emailInput">Email</label>
+               <input type="email" id="emailInput">
+             </div>
+         </div>
+             <div class="button-wrap">
+               <button type="submit" form="form1" value="signUp" id="signupButton">Submit</button>
+             </div>
+
+        </section>
+     </div>
+      <footer>
+         <span>Copyright 2017, Bent Creek Ceramics</span>
+      </footer>
+      <script type="text/javascript">
+        var nameInput = document.getElementById('nameInput');
+        var emailInput = document.getElementById('emailInput');
+        var signupButton = document.getElementById('signupButton');
+        signupButton.addEventListener('click', function(e) {
+          var nameVal = nameInput.value;
+          var emailVal = emailInput.value;
+          if (nameVal && emailVal) {
+            alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+            nameInput.value = "";
+            emailInput.value = "";
+          } else {
+            alert('We would love for you to sign up, please provide both your name and email address.');
+          }
+        });
+        </script>
+  </body>
+</html>

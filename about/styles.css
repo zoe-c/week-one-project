@@ -1,0 +1,277 @@
+/*BROWSER RESET------------------------------------*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-flow: wrap column;
+  position: relative;
+  width: 100vw;
+  height: 200vh;
+  background: #F2F1E8;
+}
+/*----------------------------------------*/
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  min-width: 100%;
+  height: 7vh;
+  font-family: 'Roboto', sans-serif;
+  /*font-size: 90%;*/
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px lightgrey;
+  z-index: 3;
+}
+
+nav img {
+  position: absolute;
+  height: 5vh;
+  left: 2%;
+}
+
+nav a {
+  min-width: 20vw;
+  max-width: 20vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2B2F26;
+}
+
+nav a:hover {
+  color: #CD5D67;
+}
+
+nav a:active {
+  top: 2px;
+}
+
+.active {
+  color: #968772;
+}
+
+/*.TOP-PG-CONTENT--------------------------------------*/
+.top-pg-content {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 70vw;
+  height: 85vh;
+  top: 7vh;
+  left: 15vw;
+  right: 15vw;
+  font-family: 'Merriweather', serif;
+}
+
+.heading-container {
+  display: flex;
+  flex-flow: wrap column;
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-heading {
+  position: relative;
+  width: 100%;
+  font-size: 5.5vw;
+}
+
+.p-1intro {
+  display: flex;
+  flex-flow: wrap row;
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  line-height: 4vh;
+}
+
+#inline-link {
+  color: #968772;
+}
+
+.birdhouse {
+  position: relative;
+  width: 20%;
+  height: 40%;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/birdhouse.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-right: 3vw;
+  margin-bottom: .6vh;
+}
+.p-1intro p {
+  positi on: relative;
+  font-size: 1.6vw;
+  width: 100%;
+}
+
+
+blockquote {
+  display: flex;
+  flex-flow: wrap row;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  padding-left: 2vw;
+  border-left: solid 2px #968772;
+  font-size: 1.7vw;
+  line-height: 4vh;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.p-2history {
+  position: relative;
+  width: 100%;
+  height: 28vh;
+  line-height: 4vh;
+  font-size: 1.6vw;
+}
+
+h1 {
+  position: relative;
+  font-size: 3vh;
+  font-weight: lighter;
+  padding-top: 2vh;
+  width: 100%;
+}
+
+.room-to-grow {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+  top: 91.75vh;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/background-3.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Merriweather', serif;
+  font-size: 5.5vw;
+  color: #F2F1E8;
+}
+
+.bottom-pg-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  left: 15vw;
+  right: 15vw;
+  top: 122vh;
+  font-family: 'Merriweather', serif;
+}
+
+.facilities {
+  display: flex;
+  flex-flow: wrap row;
+  position: relative;
+  width: 100%;
+  height: 35vh;
+  line-height: 4vh;
+  font-size: 1.6vw;
+  top: .25vh;
+}
+
+.facilities p {
+  position: relative;
+  width: 75%;
+}
+
+.facilities-imgandcap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 25%;
+  font-size: 1.1vw;
+  line-height: 2vh;
+  font-weight: lighter;
+}
+
+.facilities-img {
+  position: relative;
+  width: 80%;
+  height: 50%;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/background-1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.caption {
+  position: relative;
+  width: 80%;
+  height: 50%;
+  top: 2vh;
+}
+
+.monthly-plans {
+  display: flex;
+  flex-flow: wrap column;
+  width: 100%;
+  height: 35vh;
+}
+
+table {
+  position: relative;
+  width: 77%;
+  height: 70%;
+  border-collapse: collapse;
+  font-size: 1.4vw;
+}
+
+table, th, td {
+  border: solid 1px black;
+}
+
+th, td {
+  padding: 1.5vh 1vw;
+  height: 25%;
+}
+
+.theserows {
+background-color: #F0E5D2;
+}
+/*tr:nth-child(even){
+   background-color:#F0E5D2;
+ }*/
+
+footer {
+  display: flex;
+  position: absolute;
+  top: 192vh;
+  width: 100%;
+  height: 8vh;
+  background-color: #20241C;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  color: #F2F1E8;
+  font-size: 2vh;
+  padding: 2vh 2vw;
+}

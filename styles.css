@@ -1,0 +1,233 @@
+/*BROWSER RESET------------------------------------*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html{
+  width:100%;
+  height:100%;
+}
+
+body{
+  display: flex;
+  flex-flow: wrap column;
+  position:relative;
+  width:100%;
+  height:100%;
+  background: #F2F1E8;
+}
+/*NAV BAR-----------------------------------------*/
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom:93vh;
+  min-width: 100%;
+  height: 7vh;
+  font-family: 'Roboto', sans-serif;
+  /*font-size: 90%;*/
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px lightgrey;
+  z-index: 3;
+}
+
+nav img {
+  position: absolute;
+  height: 5vh;
+  left: 2%;
+}
+
+nav a {
+  /*border: solid 1px black;*/
+  min-width: 20vw;
+  max-width: 20vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2B2F26;
+}
+
+nav a:hover {
+  color: #CD5D67;
+}
+
+nav a:active {
+  top: 2px;
+}
+
+.active {
+  color: #968772;
+}
+
+.fill-nav-fix{
+  height:6vh;
+  width:100%;
+}
+/*HEADINGS/ TITLES------------------------------------*/
+.heading-container{
+  display: flex;
+  flex-flow: wrap column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height: 22vh;
+  font-family: 'Merriweather', serif;
+}
+
+.main-heading{
+  position: relative;
+  font-size: 7vh;
+}
+
+.sub-heading{
+  position:relative;
+  align-self: center;
+  font-size:4vh;
+  font-weight:lighter;
+}
+/*IMAGES-----------------------------------------*/
+.images-wrapper{
+  display:flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content:space-between;
+  position:relative;
+  width:100%;
+  height: 62vh;
+  /*border: solid black 2px;*/
+}
+
+.row1-imgs{
+  display: flex;
+  flex-flow: wrap row;
+  position:relative;
+  justify-content:space-between;
+  width:96%;
+  height:60%;
+  /*border: solid 2px black;*/
+}
+
+#img1{
+  position:relative;
+  /*border: solid 2px black;*/
+  flex-grow: 3;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-1.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:top;
+  margin-right:1.5%;
+}
+
+#img2{
+  position:relative;
+  /*border: solid 2px black;*/
+  flex-grow: 1;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-2.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  margin-right:1.5%;
+}
+
+#img3{
+  position:relative;
+  /*border: solid 2px black;*/
+  flex-grow: 1;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-3.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.row2-imgs{
+  display: flex;
+  flex-flow: wrap row;
+  position:relative;
+  justify-content: space-between;
+  width:96%;
+  height:37%;
+  /*border: solid 2px black;*/
+}
+
+#img4{
+  position:relative;
+  /*border: solid 2px black;*/
+  flex-grow: 1;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-4.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  margin-right:1.5%;
+}
+
+#img5{
+  position:relative;
+  /*border: solid 2px black;*/
+  flex-grow: 1;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-5.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  margin-right:1.5%;
+}
+
+#img6{
+  position:relative;
+  /*border: solid 2px black;*/
+  flex-grow: 1.9;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-6.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:top;
+  margin-right:1.5%;
+}
+
+#img7{
+  position:relative;
+  /*border: solid 2px black;*/
+  flex-grow: 1;
+  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-7.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.labels{
+  background-color:#20241C;
+  font-family: 'Merriweather', serif;
+  color: #F2F1E8;
+  font-size:2vh;
+  position: absolute;
+  align-content: space-between;
+  bottom: 5%;
+  padding: 1vh;
+  /*height:15%;*/
+  text-align: center;
+  z-index:2;
+}
+
+footer{
+  display:flex;
+  flex-flow:row;
+  align-items:center;
+  position:relative;
+  width:100%;
+  height:8vh;
+  background-color:#20241C;
+  font-family: 'Merriweather', serif;
+  color: #F2F1E8;
+  font-size:2vh;
+  padding:2vh 2vw;
+  margin-top:2vh;
+}
