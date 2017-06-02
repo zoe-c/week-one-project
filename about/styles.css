@@ -115,7 +115,7 @@ nav a:active {
   position: relative;
   width: 20%;
   height: 40%;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/birdhouse.jpg");
+  background-image: url("/project-images/birdhouse.jpg");
   background-size: cover;
   background-position: center;
   margin-right: 3vw;
@@ -167,7 +167,7 @@ h1 {
   width: 100vw;
   height: 30vh;
   top: 91.75vh;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/background-3.jpg");
+  background-image: url("/project-images/background-3.jpg");
   background-size: cover;
   background-position: center;
   font-family: 'Merriweather', serif;
@@ -218,7 +218,7 @@ h1 {
   position: relative;
   width: 80%;
   height: 50%;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/background-1.jpg");
+  background-image: url("/project-images/background-1.jpg");
   background-size: cover;
   background-position: center;
   position: relative;

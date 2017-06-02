@@ -122,7 +122,7 @@ nav a:active {
   position:relative;
   /*border: solid 2px black;*/
   flex-grow: 3;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-1.jpg");
+  background-image: url("/project-images/product-1.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position:top;
@@ -133,7 +133,7 @@ nav a:active {
   position:relative;
   /*border: solid 2px black;*/
   flex-grow: 1;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-2.jpg");
+  background-image: url("/project-images/product-2.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position:center;
@@ -144,7 +144,7 @@ nav a:active {
   position:relative;
   /*border: solid 2px black;*/
   flex-grow: 1;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-3.jpg");
+  background-image: url("/project-images/product-3.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position:center;
@@ -164,7 +164,7 @@ nav a:active {
   position:relative;
   /*border: solid 2px black;*/
   flex-grow: 1;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-4.jpg");
+  background-image: url("/project-images/product-4.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position:center;
@@ -175,7 +175,7 @@ nav a:active {
   position:relative;
   /*border: solid 2px black;*/
   flex-grow: 1;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-5.jpg");
+  background-image: url("/project-images/product-5.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position:center;
@@ -186,7 +186,7 @@ nav a:active {
   position:relative;
   /*border: solid 2px black;*/
   flex-grow: 1.9;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-6.jpg");
+  background-image: url("/project-images/product-6.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position:top;
@@ -197,7 +197,7 @@ nav a:active {
   position:relative;
   /*border: solid 2px black;*/
   flex-grow: 1;
-  background-image: url("/Users/zoe/Desktop/week-one-project/images/project-images/product-7.jpg");
+  background-image: url("/project-images/product-7.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position:center;

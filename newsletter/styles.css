@@ -16,7 +16,7 @@ body {
 }
 
 .outer {
-  background-image: url("/Users/zoe/desktop/week-one-project/images/project-images/background-2.jpg");
+  background-image: url("/project-images/background-2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
